@@ -4,8 +4,10 @@ abstract class Sekil {
 
   Sekil(this.genislik, this.yukseklik);
 
-  double alanHesapla() {
+  /*double alanHesapla() {
     return (genislik * yukseklik);
-  }
+  }*/
+
   void sekilIsminiYazdir();
+  double alanHesapla();
 }

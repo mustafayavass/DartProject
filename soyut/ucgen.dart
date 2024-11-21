@@ -7,4 +7,9 @@ class Ucgen extends Sekil {
   void sekilIsminiYazdir() {
     print("ucgen");
   }
+
+  @override
+  double alanHesapla() {
+    return genislik * yukseklik / 2;
+  }
 }

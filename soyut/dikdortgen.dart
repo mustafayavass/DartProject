@@ -7,4 +7,9 @@ class Dikdortgen extends Sekil {
   void sekilIsminiYazdir() {
     print("dikdörtgen");
   }
+
+  @override
+  double alanHesapla() {
+    return genislik * yukseklik;
+  }
 }
